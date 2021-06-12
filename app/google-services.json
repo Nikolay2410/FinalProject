@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1068841972950",
+    "firebase_url": "https://game3072-40c33-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "game3072-40c33",
+    "storage_bucket": "game3072-40c33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068841972950:android:c3445c13c5ed379b0e8577",
+        "android_client_info": {
+          "package_name": "com.example.game3072"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068841972950-vrlf7h57t68s2kkh4sem7jc89kga2bat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAllyQyh29I7L91fR17LQJUSOWKVrynYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068841972950-vrlf7h57t68s2kkh4sem7jc89kga2bat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

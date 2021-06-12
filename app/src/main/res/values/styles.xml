@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyRB" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorControlActivated">#FF3939</item>
+    </style>
+</resources>

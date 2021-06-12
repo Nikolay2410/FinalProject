@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    android:windowSoftInputMode="adjustResize"
+    tools:context=".NewRecord">
+
+    <EditText
+        android:id="@+id/nameRec"
+        android:layout_width="310dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/m_sb"
+        android:gravity="center"
+        android:hint="Имя игрока"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#D7D7D7"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newRecord1" />
+
+    <EditText
+        android:id="@+id/countRec"
+        android:layout_width="310dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/m_sb"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameRec" />
+
+    <Button
+        android:id="@+id/saveRecord"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="510dp"
+        android:background="#FF3939"
+        android:fontFamily="@font/m_sb"
+        android:text="Сохранить"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newRecord1" />
+
+    <TextView
+        android:id="@+id/newRecord1"
+        android:layout_width="310dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="30dp"
+        android:background="#FF3939"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/newRecord2"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:background="#141414"
+        android:fontFamily="@font/bebas_neue"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Сохранить рекорд"
+        android:textColor="#FFFFFF"
+        android:textSize="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/newRecord1"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/m_sb"
+        android:text="Ваш счёт"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/countRec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
